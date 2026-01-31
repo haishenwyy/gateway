@@ -7,7 +7,7 @@ on:
 
 env:
   IMAGE_NAME: haishen108/yudao-gateway
-  DEPLOY_REPO: haishen/yudao-deploy
+  DEPLOY_REPO: haishenwyy/yudao-deploy
 
 jobs:
   build:
