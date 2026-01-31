@@ -53,7 +53,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: ${{ env.DEPLOY_REPO }}
-          token: ${{ secrets.DEPLOY_REPO_TOKEN }}
+          token: ${{ secrets.DEPLOY_REPO_TOKEN1 }}
           path: deploy
 
       # 8. 更新 gateway 的 Helm values.yaml
